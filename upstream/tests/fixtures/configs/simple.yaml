@@ -1,0 +1,13 @@
+name: simple-workflow
+description: A simple test workflow
+
+documents:
+  readme: README.md
+  spec: SPECIFICATION.md
+
+oracle:
+  model: "5.2 Thinking"
+  thinking_time: heavy
+
+rounds:
+  output_dir: .apr/rounds/simple

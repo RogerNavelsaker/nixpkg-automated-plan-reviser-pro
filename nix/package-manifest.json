@@ -1,0 +1,20 @@
+{
+  "stubbed": false,
+  "source": {
+    "path": "upstream",
+    "version": "1.2.2",
+    "rev": "edd6bd19af61d78651e2e2ccb73be5ee7f226294"
+  },
+  "package": {
+    "version": "1.2.2"
+  },
+  "binary": {
+    "name": "apr",
+    "entrypoint": "apr"
+  },
+  "meta": {
+    "description": "Iterative specification refinement with GPT Pro Extended Reasoning via Oracle",
+    "homepage": "https://github.com/Dicklesworthstone/automated_plan_reviser_pro",
+    "licenseSpdx": "LicenseRef-MIT-OpenAI-Anthropic-Rider"
+  }
+}

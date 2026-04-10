@@ -1,0 +1,58 @@
+name: template-workflow
+description: Workflow with template blocks
+
+documents:
+  readme: README.md
+  spec: SPECIFICATION.md
+  implementation: IMPLEMENTATION.md
+
+oracle:
+  model: "5.2 Thinking"
+  thinking_time: heavy
+
+rounds:
+  output_dir: .apr/rounds/template
+
+template: |
+  First, read this README:
+
+  <readme>
+  {{README}}
+  </readme>
+
+  Now read the specification:
+
+  <spec>
+  {{SPEC}}
+  </spec>
+
+  Please analyze and provide feedback on this specification.
+  Focus on:
+  1. Completeness
+  2. Clarity
+  3. Technical feasibility
+
+template_with_impl: |
+  First, read this README:
+
+  <readme>
+  {{README}}
+  </readme>
+
+  Now read the specification:
+
+  <spec>
+  {{SPEC}}
+  </spec>
+
+  And the current implementation:
+
+  <implementation>
+  {{IMPL}}
+  </implementation>
+
+  Please analyze the implementation against the specification.
+  Focus on:
+  1. Specification compliance
+  2. Code quality
+  3. Missing features
