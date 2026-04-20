@@ -1,11 +1,16 @@
 {
-  "stubbed": false,
   "source": {
-    "path": "upstream",
+    "type": "github",
+    "owner": "Dicklesworthstone",
+    "repo": "automated_plan_reviser_pro",
+    "channel": "github-head",
+    "defaultBranch": "main",
     "version": "1.2.2",
-    "rev": "edd6bd19af61d78651e2e2ccb73be5ee7f226294"
+    "rev": "edd6bd19af61d78651e2e2ccb73be5ee7f226294",
+    "hash": "sha256-We8UK8BXaqAuF5Xakh5C/z1Wis9zx30KRAjVfPx+9UQ="
   },
   "package": {
+    "repo": "automated-plan-reviser-pro",
     "version": "1.2.2"
   },
   "binary": {
