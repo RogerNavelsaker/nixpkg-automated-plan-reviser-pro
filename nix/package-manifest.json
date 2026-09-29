@@ -6,8 +6,8 @@
     "channel": "github-head",
     "defaultBranch": "main",
     "version": "1.2.2",
-    "rev": "0bbc5a16c3e02f976de773f3fa2dc73378958193",
-    "hash": "sha256-DVe6msibm0BBE060JcEAupeWdn5WMUGoag0Oiy3rFUo="
+    "rev": "93727cdf56aaa19c37b2b28abd004d31a9d98df7",
+    "hash": "sha256-we/UYbEu1Tylk6TcP+9FBMsXdVCqIfMw/35xgTzwdRA="
   },
   "package": {
     "repo": "automated-plan-reviser-pro",
